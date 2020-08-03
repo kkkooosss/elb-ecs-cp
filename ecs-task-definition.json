@@ -5,7 +5,7 @@
     "containerDefinitions": [
         {
             "name": "alb-scale-cont",
-            "image": "alb-scale-cont:00000",
+            "image": "alb-http-ecs:00000",
             "portMappings": [
                 {
                     "containerPort": 80,
