@@ -1,0 +1,23 @@
+{
+    "family": "alb-scale-cont",
+    "executionRoleArn": "arn:aws:iam::092663235681:role/ecs-devops-sandbox-execution-role",
+    "networkMode": "bridge",
+    "containerDefinitions": [
+        {
+            "name": "alb-scale-cont",
+            "image": "alb-scale-cont:00000",
+            "portMappings": [
+                {
+                    "containerPort": 80,
+                    "protocol": "tcp"
+                }
+            ],
+            "essential": true
+        }
+    ],
+    "requiresCompatibilities": [
+        "EC2"
+    ],
+    "cpu": "50",
+    "memory": "128"
+}
