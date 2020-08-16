@@ -14,7 +14,7 @@ This pipeline has follow workflow:
 
 - Create a repository (**alb-http-ecs** in this case).
 - Create a ECS cluster with one or more EC2 instances (**my-alb-ec2-cluster** in this case).
-- Create a Task-Definition with simple app, which will be updated leter (**elb-autoscalle-task-definition** and container name **alb-scale-cont**in this case).
+- Create a Task-Definition with AWS simple app, which will be updated leter (**elb-autoscalle-task-definition** and container name **alb-scale-cont** in this case).
 - Create a Service which will run our tasks bsed on our task-definifion.
 - As I use service with autoscalling we need to create ELB (Application Load balancer) for adjust our balance with multiple port mapping. 
 -Also we have to configure our AWS credentals in **settings** and create IAM roles with permitions for deployments accordingly.  
