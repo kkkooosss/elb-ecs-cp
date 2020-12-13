@@ -1,6 +1,6 @@
 {
     "family": "elb-autoscalle-task-definition",
-    "executionRoleArn": "arn:aws:iam::092663235681:role/ecs-devops-sandbox-execution-role",
+    "executionRoleArn": "arn:aws:iam::509073717128:role/ecs-task-exec-role",
     "networkMode": "bridge",
     "containerDefinitions": [
         {
