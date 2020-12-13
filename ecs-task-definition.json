@@ -8,6 +8,7 @@
             "image": "alb-http-ecs:00000",
             "portMappings": [
                 {
+                    "hostPort": 80,
                     "containerPort": 80,
                     "protocol": "tcp"
                 }
